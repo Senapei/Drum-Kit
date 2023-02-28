@@ -3,3 +3,54 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(32, 43, 94);
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+.header-text {
+  font-size: 80px;
+  color: #fff;
+  text-shadow: 3px 3px red;
+  margin: 80px 0 120px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.drum {
+  background-color: rgb(53, 69, 138);
+  width: 160px;
+  height: 160px;
+  margin: 40px;
+}
+
+.footer-container {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.footer p {
+  margin: 100px;
+}
