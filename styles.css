@@ -11,6 +11,13 @@ body {
   background-color: rgb(32, 43, 94);
 }
 
+img {
+  background-color: #fff;
+  width: 87%;
+  height: 87%;
+  border-radius: 10px;
+}
+
 .header-container {
   display: flex;
   justify-content: center;
@@ -42,6 +49,14 @@ body {
   width: 160px;
   height: 160px;
   margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.drum-letter {
+  /* do this next time to position the letters over the images */
 }
 
 .footer-container {
