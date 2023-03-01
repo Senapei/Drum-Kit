@@ -53,10 +53,17 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  position: relative;
 }
 
 .drum-letter {
-  /* do this next time to position the letters over the images */
+  position: absolute;
+  bottom: 30px;
+  right: auto;
+  color: red;
+  text-shadow: 2px 2px #fff;
+  font-size: 70px;
+  font-weight: 700;
 }
 
 .footer-container {
