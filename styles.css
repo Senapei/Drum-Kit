@@ -11,13 +11,6 @@ body {
   background-color: rgb(32, 43, 94);
 }
 
-img {
-  background-color: #fff;
-  width: 87%;
-  height: 87%;
-  border-radius: 10px;
-}
-
 .header-container {
   display: flex;
   justify-content: center;
@@ -64,6 +57,47 @@ img {
   text-shadow: 2px 2px #fff;
   font-size: 70px;
   font-weight: 700;
+}
+
+.w {
+  background-image: url(./img/tom1.png);
+}
+
+.a {
+  background-image: url(./img/tom2.png);
+}
+
+.s {
+  background-image: url(./img/tom3.png);
+}
+
+.d {
+  background-image: url(./img/tom4.png);
+}
+
+.j {
+  background-image: url(./img/snare.png);
+}
+
+.k {
+  background-image: url(./img/crash.png);
+}
+
+.l {
+  background-image: url(./img/kick.png);
+}
+
+.drum-button {
+  width: 150px;
+  height: 150px;
+
+  color: red;
+  text-shadow: 2px 2px #fff;
+  font-size: 70px;
+  font-weight: 700;
+  width: 87%;
+  height: 87%;
+  border-radius: 10px;
 }
 
 .footer-container {
