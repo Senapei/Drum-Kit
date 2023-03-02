@@ -38,25 +38,12 @@ body {
 }
 
 .drum {
-  background-color: rgb(53, 69, 138);
-  width: 160px;
-  height: 160px;
   margin: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
-  position: relative;
-}
-
-.drum-letter {
-  position: absolute;
-  bottom: 30px;
-  right: auto;
-  color: red;
-  text-shadow: 2px 2px #fff;
-  font-size: 70px;
-  font-weight: 700;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .w {
@@ -95,8 +82,7 @@ body {
   text-shadow: 2px 2px #fff;
   font-size: 70px;
   font-weight: 700;
-  width: 87%;
-  height: 87%;
+  border: 10px solid rgb(49, 63, 129);
   border-radius: 10px;
 }
 
@@ -109,4 +95,9 @@ body {
 
 .footer p {
   margin: 100px;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
 }
