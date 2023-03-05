@@ -25,24 +25,31 @@ function playingSound(letter) {
   letter = letter.toUpperCase();
   switch (letter) {
     case "W":
+      tom1.currentTime = 0;
       tom1.play();
       break;
     case "A":
+      tom2.currentTime = 0;
       tom2.play();
       break;
     case "S":
+      tom3.currentTime = 0;
       tom3.play();
       break;
     case "D":
+      tom4.currentTime = 0;
       tom4.play();
       break;
     case "J":
+      snare.currentTime = 0;
       snare.play();
       break;
     case "K":
+      crash.currentTime = 0;
       crash.play();
       break;
     case "L":
+      kickBass.currentTime = 0;
       kickBass.play();
       break;
     default:
